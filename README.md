@@ -15,28 +15,28 @@ Un renderizador ASCII con raymarching de Tux (el pingüino de Linux) que corre d
 
 ## Compilar
 
-\`\`\`sh
+```sh
 gcc -O2 -o tux tux.c -lm
-\`\`\`
+```
 
 ## Uso
 
-\`\`\`sh
+```sh
 ./tux
-\`\`\`
+```
 
 Corre indefinidamente hasta que lo interrumpas (Ctrl+C).
 
 Opcionalmente, podés pasar una cantidad de frames para renderizar un número fijo y salir:
 
-\`\`\`sh
+```sh
 ./tux 200
-\`\`\`
+```
 
 ## Requisitos
 
 - Una terminal que soporte secuencias de escape ANSI de 24 bits (truecolor).
-- \`libm\` (se linkea con \`-lm\`).
+- `libm` (se linkea con `-lm`).
 
 ## Licencia
 
